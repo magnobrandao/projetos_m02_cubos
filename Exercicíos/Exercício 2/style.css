@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+.navegacao {
+  width: 200px;
+  height: 80;
+  display: block;
+  margin: 2px auto;
+  text-align: center;
+  border: 1px solid grey;
+  color: grey;
+  padding: 10px 8px;
+}
+
+.navegacao ul {
+  list-style-type: none;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+.navegacao li:hover {
+  background-color: greenyellow;
+  color: whitesmoke;
+}
+
+.navegacao li:hover::before {
+  content: ">";
+}
